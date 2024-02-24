@@ -1,0 +1,202 @@
+.navWrapper {
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  position: relative;
+  flex: 1 !important;
+}
+
+.navWrapper ul {
+  list-style: none;
+  display: flex;
+  margin: 0 20px;
+}
+
+.navWrapper li {
+  margin: 0 20px;
+  color: #b4b7c0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.leftContainer {
+  width: 40%;
+}
+
+.rightContainer {
+  width: 40%;
+
+  display: flex;
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+
+.iconButton {
+cursor: pointer;
+  border: 1px solid #44334c;
+  border-radius: 4px;
+  max-height: 38px;
+  height: 38px;
+  width: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 13px;
+  position: relative;
+}
+
+.iconButton:active {
+  transform: translateY(2px);
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  width: 140px;
+  height: 85px;
+  background: linear-gradient(180deg, #44334c 0%, #1e1722 100%);
+  border-radius: 4px;
+}
+.centerContainer,
+.logoMobile {
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .navWrapper {
+    height: 70px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    position: relative;
+    flex: 1;
+  }
+
+  .navWrapper li {
+    margin: 0 10px;
+  }
+
+  .centerContainer {
+    width: 90px;
+    height: auto;
+  }
+
+  .rightContainer {
+    margin-right: 0;
+  }
+
+  .iconButton {
+    height: 34px;
+    width: 34px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 950px) {
+  .leftContainer,
+  .centerContainer,
+  .rightContainer {
+    display: none;
+  }
+  .mobileNavContainer {
+    padding: 0 15px;
+    align-items: unset;
+    height: 64px;
+  }
+  /* .iconButton {
+    margin-top: 13px;
+  } */
+  /* .logoMobile {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  } */
+  .hamburger {
+    /* margin-top: 13px; */
+    cursor: pointer;
+  }
+  .drawerNav {
+    width: 100%;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #18141b;
+    position: relative;
+    padding: 0 15px;
+  }
+  .closeMobile {
+ width: 40px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+  }
+  .mobileNav {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .mobileNavContainer {
+    width: 100%;
+  }
+  .drawer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    background: linear-gradient(180deg, #44334c 0%, #1e1722 100%);
+    z-index: 25;
+  }
+  .nav2Btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .nav2Btn p{
+    margin: 0;
+  }
+  .iconAndName{
+    display: flex;
+    align-items: center;
+  }
+.iconAndName .iconImg{
+    margin-right: 12px;
+}
+ .dollarsAmount{
+    color: #808694;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+}
+.coinName{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+.walletId{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+.amountPoints{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+}
+@media (min-width: 950px) {
+  .mobileNavContainer {
+    display: none;
+  }
+}

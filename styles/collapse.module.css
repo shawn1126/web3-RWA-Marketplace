@@ -1,0 +1,122 @@
+.quesWrapper {
+    padding: 18px 24px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    background: #18141B;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.quesWrapper p {
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.questHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questHeader p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.expandImg {
+    width: 24px;
+    height: 24px;
+}
+
+.headingCollapsed {
+    color: #364575;
+    font-weight: 700;
+    /* font-family: Poppins; */
+    font-size: 25px;
+
+}
+
+.headingExpanded {
+    color: #30b4f9;
+    font-weight: 700;
+    /* font-family: Poppins; */
+    font-size: 25px;
+
+}
+
+/* 
+  @media (max-width: 1200px) {
+    .contentWrapper {
+      width: 90%;
+    }
+  }
+  @media (max-width: 900px) {
+    .navWrapper {
+      display: none;
+    }
+    .heading {
+      margin-top: 45px;
+      font-size: 35px;
+    }
+    .quesCont {
+      margin-top: 30px;
+    }
+  
+    .quesWrapper {
+      padding: 23px 27px;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+  
+    .quesWrapper p {
+      margin-top: 9px;
+      font-size: 14px;
+    }
+    .questHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .expandImg {
+      width: 15px;
+    }
+    .headingCollapsed {
+      font-size: 20px;
+    }
+    .headingExpanded {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 500px) {
+    .heading {
+      margin-top: 25px;
+      font-size: 25px;
+    }
+    .quesCont {
+      margin-top: 20px;
+    }
+  
+    .quesWrapper {
+      padding: 14px 18px;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+  
+    .headingCollapsed {
+      font-size: 18px;
+    }
+    .headingExpanded {
+      font-size: 18px;
+    }
+  }
+   */

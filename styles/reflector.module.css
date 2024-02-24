@@ -1,0 +1,218 @@
+.mediaPage {
+  background-image: url("../public/v2imgs/media-bg.png"),
+    url("../public/v2imgs/media-bg-2.png");
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #35283c;
+}
+
+.navWrapper {
+  background-color: #18141b;
+}
+
+.mediaSection {
+  width: 1020px;
+  margin: auto;
+  padding-top: 124px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mediaSection h4 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 24px;
+}
+
+.reflectorSectionWrapper {
+  height: 462px;
+  overflow: hidden;
+}
+.safuSecurity {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+
+  position: absolute;
+}
+.safu {
+  top: 63px;
+}
+.safu h3 {
+  position: relative;
+  right: 160px;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+}
+.security {
+  top: 224px;
+}
+.security h3 {
+  position: relative;
+  left: 280px;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+}
+.safuPara {
+  position: relative;
+  right: 235px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.securityPara {
+  position: relative;
+  left: 250px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  width: 280px;
+}
+
+.lastCol {
+  margin-right: 20px;
+  width: 5%;
+}
+.nftCard {
+  background: #44334c;
+  height: 144px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-left: 28px;
+  padding-right: 36px;
+  cursor: pointer;
+}
+.nftCard img {
+  margin-right: 18px;
+  height: 118px;
+}
+.nftDetailCol {
+  margin-top: 47px;
+}
+.percentVal {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 68px;
+  text-align: right;
+}
+.tokenVal {
+  min-width: 288px;
+}
+@media (max-width: 1050px) {
+  .mediaSection {
+    width: unset;
+  }
+}
+
+@media (max-width: 850px) {
+  .nftDetailCol {
+    margin-top: 16px;
+  }
+}
+
+.h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 24px;
+}
+.h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #b4b7c0;
+  margin-bottom: 10px;
+}
+.p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.ul {
+  list-style-position: outside;
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .mediaPage {
+    background-image: none;
+  }
+  .mediaSection {
+    padding-top: 32px;
+  }
+  .rowAbout {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b4b7c0;
+    margin-bottom: 8px;
+  }
+  .mediaDetail {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+  .p,
+  .li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .p {
+    margin-bottom: 44px;
+  }
+  .h5 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .mediaSection {
+    padding-top: 92px;
+  }
+  .nftDetailCol {
+    margin-top: 20px;
+  }
+  .safuSecurity {
+    display: none;
+  }
+  .nftCard {
+    display: none;
+  }
+  .reflectorSectionWrapper {
+    height: 440px;
+  }
+}
+@media (max-width: 600px) {
+  .mediaImg {
+    width: 132px;
+    height: 78px;
+    min-width: 132px;
+    min-height: 78px;
+    margin: 12px;
+  }
+  .mediaSection h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%px;
+    margin-bottom: 24px;
+  }
+  .rowTextCont {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .mediaRowBox {
+    padding-left: 16px;
+  }
+}

@@ -1,0 +1,84 @@
+.mediaPage {
+    background-image: url("../public/v2imgs/media-bg.png"), url("../public/v2imgs/media-bg-2.png");
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #35283c;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.navWrapper {
+    background-color: #18141b;
+}
+
+.SFTSection {
+    width: 1020px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.claiming {
+    width: 980px;
+    margin: auto;
+    position: relative;
+    background: linear-gradient(to right, transparent 40%, #44334c 0%);
+    z-index: 1;
+    margin-top: 62px;
+    border-top-right-radius:4px;
+    border-top-left-radius:4px;
+}
+
+.rwaSection {
+    width: 1020px;
+    margin: auto;
+    padding-top: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+}
+
+.emptyBox {
+    height: 312px;
+    width: 100%;
+   
+    margin-bottom: 21px;
+    max-width: 1020px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.borderBox{
+    border: 1px solid #646a79;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 1040px) {
+    .SFTSection,
+    .rwaSection {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .rwaSection {
+        padding-top: 57px;
+    }
+
+    .claiming {
+        margin-top: 0;
+        bottom: 10px;
+    }
+    .mediaPage {
+        background-image: none;
+    }
+    .SFTSection,
+    .rwaSection {
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+}
